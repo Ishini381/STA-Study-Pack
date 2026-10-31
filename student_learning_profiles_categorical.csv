@@ -1,0 +1,181 @@
+Student_ID,Programme,Study_Mode,Resource_Preference,Attendance,Assignment_Timing,Coding_Confidence,Statistics_Confidence,AI_Assistant_Use,Preferred_Assessment,Primary_Device,Performance_Band
+S001,Data Science,Solo,Lecture Notes,Regular,On Time,Medium,Low,Never,Project,Laptop,Medium
+S002,Statistics,Mixed,Interactive Tools,Regular,On Time,Medium,Low,Frequent,Project,Laptop,Medium
+S003,Physical Science,Group,Videos,Regular,On Time,Medium,High,Frequent,Project,Laptop,Medium
+S004,Statistics,Mixed,Interactive Tools,Regular,On Time,High,High,Frequent,Project,Laptop,High
+S005,Data Science,Mixed,Videos,Regular,On Time,Medium,Medium,Occasional,Project,Laptop,Medium
+S006,Physical Science,Solo,Lecture Notes,Regular,On Time,Low,Low,Never,Exam,Laptop,Medium
+S007,Statistics,Solo,Lecture Notes,Occasional,On Time,Low,Low,Frequent,Exam,Mobile,Medium
+S008,Physical Science,Solo,Lecture Notes,Regular,On Time,Medium,Medium,Occasional,Exam,Mobile,High
+S009,Data Science,Mixed,Lecture Notes,Occasional,Early,High,Medium,Occasional,Exam,Shared Computer,Medium
+S010,Statistics,Mixed,Interactive Tools,Regular,Early,Low,Medium,Occasional,Project,Laptop,High
+S011,Physical Science,Group,Videos,Rare,On Time,Medium,High,Frequent,Exam,Laptop,Medium
+S012,Data Science,Solo,Videos,Occasional,Early,High,High,Never,Quiz,Shared Computer,Medium
+S013,Statistics,Solo,Lecture Notes,Regular,On Time,Medium,Medium,Occasional,Project,Laptop,High
+S014,Data Science,Solo,Videos,Regular,On Time,Medium,Medium,Occasional,Exam,Mobile,Medium
+S015,Data Science,Group,Interactive Tools,Occasional,On Time,Medium,High,Occasional,Project,Laptop,Medium
+S016,Statistics,Group,Videos,Regular,On Time,Medium,High,Frequent,Exam,Laptop,Low
+S017,Data Science,Solo,Interactive Tools,Regular,On Time,Medium,Medium,Frequent,Exam,Laptop,High
+S018,Data Science,Mixed,Lecture Notes,Regular,On Time,Medium,Medium,Occasional,Project,Laptop,High
+S019,Statistics,Group,Lecture Notes,Regular,On Time,Medium,High,Occasional,Exam,Laptop,High
+S020,Data Science,Solo,Lecture Notes,Regular,Early,High,Medium,Occasional,Exam,Mobile,Medium
+S021,Statistics,Solo,Videos,Rare,Last Minute,Medium,Medium,Occasional,Exam,Mobile,Low
+S022,Physical Science,Mixed,Interactive Tools,Occasional,On Time,High,Low,Occasional,Exam,Laptop,Medium
+S023,Biological Science,Mixed,Lecture Notes,Occasional,On Time,Medium,High,Frequent,Project,Laptop,High
+S024,Statistics,Mixed,Videos,Occasional,On Time,High,High,Frequent,Project,Laptop,High
+S025,Statistics,Mixed,Lecture Notes,Occasional,On Time,High,Low,Frequent,Quiz,Laptop,High
+S026,Statistics,Mixed,Lecture Notes,Rare,On Time,Medium,Medium,Frequent,Project,Laptop,High
+S027,Data Science,Solo,Lecture Notes,Regular,Early,High,High,Occasional,Quiz,Laptop,High
+S028,Physical Science,Mixed,Interactive Tools,Regular,On Time,High,High,Frequent,Quiz,Laptop,High
+S029,Biological Science,Mixed,Videos,Regular,On Time,High,High,Occasional,Project,Laptop,High
+S030,Data Science,Solo,Lecture Notes,Regular,On Time,Medium,High,Occasional,Quiz,Laptop,Medium
+S031,Biological Science,Solo,Interactive Tools,Occasional,Last Minute,Medium,Medium,Occasional,Exam,Mobile,Medium
+S032,Physical Science,Mixed,Lecture Notes,Regular,On Time,High,High,Frequent,Project,Laptop,High
+S033,Statistics,Mixed,Interactive Tools,Regular,Early,Medium,High,Frequent,Quiz,Laptop,High
+S034,Data Science,Group,Interactive Tools,Regular,Early,Medium,Medium,Occasional,Project,Laptop,High
+S035,Biological Science,Group,Lecture Notes,Regular,Early,High,Medium,Frequent,Project,Laptop,Medium
+S036,Data Science,Group,Lecture Notes,Regular,On Time,Medium,Medium,Never,Project,Mobile,Medium
+S037,Statistics,Mixed,Videos,Regular,Early,Medium,High,Frequent,Project,Laptop,Medium
+S038,Physical Science,Mixed,Lecture Notes,Regular,Last Minute,High,Medium,Frequent,Quiz,Laptop,Medium
+S039,Physical Science,Mixed,Videos,Regular,On Time,High,High,Occasional,Exam,Laptop,High
+S040,Data Science,Group,Videos,Rare,Last Minute,Medium,Low,Occasional,Exam,Mobile,Low
+S041,Data Science,Mixed,Videos,Regular,Early,High,High,Frequent,Project,Laptop,Medium
+S042,Statistics,Group,Lecture Notes,Occasional,On Time,Low,Low,Frequent,Quiz,Mobile,Low
+S043,Data Science,Mixed,Videos,Regular,On Time,High,Medium,Occasional,Project,Mobile,Medium
+S044,Statistics,Solo,Videos,Regular,On Time,Medium,Medium,Occasional,Quiz,Laptop,High
+S045,Statistics,Group,Interactive Tools,Regular,Early,High,High,Frequent,Project,Laptop,High
+S046,Data Science,Group,Interactive Tools,Occasional,Last Minute,Medium,High,Frequent,Project,Mobile,High
+S047,Data Science,Group,Videos,Regular,On Time,Medium,Medium,Occasional,Project,Mobile,High
+S048,Data Science,Mixed,Lecture Notes,Regular,On Time,High,Medium,Frequent,Project,Laptop,High
+S049,Statistics,Group,Interactive Tools,Occasional,On Time,Low,High,Frequent,Project,Laptop,Medium
+S050,Statistics,Mixed,Interactive Tools,Regular,On Time,High,High,Frequent,Project,Laptop,High
+S051,Statistics,Group,Lecture Notes,Regular,On Time,Medium,High,Occasional,Quiz,Laptop,Medium
+S052,Physical Science,Solo,Videos,Regular,Early,High,High,Frequent,Exam,Laptop,High
+S053,Biological Science,Solo,Lecture Notes,Regular,Early,High,High,Frequent,Project,Laptop,High
+S054,Data Science,Solo,Lecture Notes,Regular,On Time,High,Medium,Occasional,Exam,Laptop,Medium
+S055,Physical Science,Mixed,Lecture Notes,Regular,Early,High,High,Frequent,Project,Laptop,Medium
+S056,Statistics,Mixed,Lecture Notes,Regular,On Time,High,Low,Occasional,Exam,Laptop,High
+S057,Biological Science,Mixed,Interactive Tools,Regular,On Time,Medium,High,Frequent,Quiz,Laptop,Medium
+S058,Statistics,Mixed,Interactive Tools,Regular,On Time,High,High,Frequent,Project,Laptop,Low
+S059,Statistics,Solo,Interactive Tools,Regular,On Time,Low,High,Occasional,Exam,Laptop,High
+S060,Physical Science,Mixed,Lecture Notes,Regular,On Time,High,High,Never,Project,Laptop,Medium
+S061,Data Science,Mixed,Lecture Notes,Occasional,Early,Medium,Medium,Occasional,Exam,Laptop,High
+S062,Physical Science,Group,Videos,Occasional,Early,High,High,Occasional,Project,Laptop,Medium
+S063,Data Science,Group,Lecture Notes,Regular,On Time,Medium,Medium,Frequent,Exam,Laptop,Medium
+S064,Biological Science,Group,Videos,Occasional,Last Minute,Low,Low,Frequent,Quiz,Laptop,Medium
+S065,Physical Science,Solo,Interactive Tools,Regular,On Time,Medium,Medium,Frequent,Project,Laptop,Medium
+S066,Statistics,Mixed,Lecture Notes,Regular,Early,High,Medium,Occasional,Quiz,Laptop,High
+S067,Biological Science,Solo,Interactive Tools,Regular,Early,Medium,High,Frequent,Project,Mobile,High
+S068,Data Science,Group,Videos,Regular,Early,Medium,High,Frequent,Project,Laptop,Medium
+S069,Statistics,Solo,Videos,Occasional,On Time,Medium,Low,Frequent,Exam,Shared Computer,Medium
+S070,Biological Science,Group,Videos,Occasional,Last Minute,Low,Medium,Frequent,Project,Mobile,Medium
+S071,Physical Science,Solo,Lecture Notes,Rare,Last Minute,Low,High,Occasional,Quiz,Mobile,Medium
+S072,Physical Science,Solo,Videos,Regular,On Time,High,High,Frequent,Exam,Laptop,Medium
+S073,Data Science,Mixed,Lecture Notes,Regular,On Time,Medium,Medium,Frequent,Exam,Mobile,High
+S074,Statistics,Solo,Videos,Regular,Last Minute,High,High,Frequent,Project,Laptop,Low
+S075,Biological Science,Mixed,Videos,Regular,On Time,High,Medium,Frequent,Exam,Shared Computer,High
+S076,Physical Science,Group,Lecture Notes,Occasional,Last Minute,Low,Low,Frequent,Project,Mobile,Low
+S077,Statistics,Group,Interactive Tools,Regular,Last Minute,Medium,Medium,Frequent,Project,Laptop,Medium
+S078,Biological Science,Mixed,Videos,Regular,On Time,Medium,Medium,Frequent,Project,Laptop,Medium
+S079,Physical Science,Solo,Videos,Rare,Last Minute,Low,Medium,Occasional,Project,Mobile,Low
+S080,Statistics,Group,Videos,Occasional,Last Minute,High,Low,Frequent,Project,Mobile,Low
+S081,Statistics,Mixed,Videos,Occasional,Last Minute,Medium,High,Occasional,Exam,Shared Computer,Medium
+S082,Physical Science,Mixed,Interactive Tools,Occasional,Early,High,High,Occasional,Exam,Laptop,Medium
+S083,Physical Science,Mixed,Interactive Tools,Regular,Early,Medium,Medium,Occasional,Project,Laptop,High
+S084,Data Science,Mixed,Interactive Tools,Regular,On Time,High,Medium,Frequent,Quiz,Laptop,High
+S085,Data Science,Group,Lecture Notes,Rare,Last Minute,Low,Low,Frequent,Exam,Laptop,Low
+S086,Physical Science,Group,Interactive Tools,Occasional,On Time,Medium,High,Frequent,Project,Mobile,High
+S087,Data Science,Group,Videos,Regular,On Time,High,High,Frequent,Project,Shared Computer,Medium
+S088,Data Science,Solo,Lecture Notes,Regular,On Time,Low,High,Occasional,Quiz,Shared Computer,Medium
+S089,Biological Science,Group,Lecture Notes,Regular,On Time,Medium,Medium,Frequent,Project,Laptop,High
+S090,Data Science,Group,Interactive Tools,Occasional,Last Minute,Medium,Low,Occasional,Quiz,Mobile,Low
+S091,Statistics,Solo,Videos,Regular,On Time,High,High,Occasional,Exam,Laptop,Medium
+S092,Biological Science,Mixed,Lecture Notes,Regular,Early,Medium,Medium,Occasional,Exam,Mobile,Medium
+S093,Physical Science,Group,Lecture Notes,Regular,Early,Medium,Medium,Occasional,Project,Mobile,Medium
+S094,Data Science,Solo,Videos,Occasional,Last Minute,Low,Low,Frequent,Quiz,Mobile,Low
+S095,Physical Science,Mixed,Interactive Tools,Regular,On Time,High,Medium,Occasional,Project,Laptop,Medium
+S096,Data Science,Solo,Videos,Occasional,Last Minute,Medium,Low,Frequent,Quiz,Mobile,Low
+S097,Data Science,Group,Videos,Regular,Early,Medium,High,Occasional,Project,Laptop,High
+S098,Statistics,Group,Interactive Tools,Regular,Last Minute,High,Medium,Frequent,Exam,Shared Computer,Medium
+S099,Data Science,Solo,Videos,Occasional,On Time,Low,Medium,Frequent,Quiz,Laptop,Medium
+S100,Physical Science,Mixed,Videos,Regular,On Time,Medium,Low,Frequent,Project,Laptop,High
+S101,Data Science,Solo,Videos,Occasional,On Time,Medium,Low,Frequent,Project,Laptop,High
+S102,Statistics,Solo,Lecture Notes,Regular,Early,Medium,High,Frequent,Project,Shared Computer,Medium
+S103,Statistics,Group,Interactive Tools,Regular,On Time,Medium,Medium,Frequent,Quiz,Laptop,High
+S104,Data Science,Mixed,Videos,Regular,Early,Medium,High,Occasional,Project,Laptop,Low
+S105,Data Science,Solo,Videos,Regular,Last Minute,Low,Low,Never,Quiz,Mobile,Low
+S106,Biological Science,Solo,Videos,Regular,On Time,Low,Medium,Never,Project,Laptop,Low
+S107,Data Science,Mixed,Videos,Occasional,Early,High,High,Frequent,Project,Laptop,High
+S108,Data Science,Group,Interactive Tools,Regular,Early,High,Medium,Occasional,Exam,Mobile,High
+S109,Physical Science,Group,Videos,Regular,On Time,Medium,High,Frequent,Project,Laptop,Medium
+S110,Physical Science,Solo,Lecture Notes,Regular,Early,Medium,High,Occasional,Exam,Laptop,Low
+S111,Data Science,Mixed,Interactive Tools,Occasional,On Time,High,Low,Frequent,Quiz,Laptop,High
+S112,Biological Science,Mixed,Interactive Tools,Regular,On Time,Medium,High,Frequent,Project,Mobile,Medium
+S113,Biological Science,Mixed,Lecture Notes,Regular,Early,High,Medium,Frequent,Exam,Mobile,Medium
+S114,Data Science,Solo,Videos,Occasional,On Time,Low,Medium,Occasional,Exam,Laptop,Low
+S115,Biological Science,Mixed,Interactive Tools,Regular,Last Minute,High,Medium,Frequent,Project,Laptop,High
+S116,Physical Science,Solo,Lecture Notes,Rare,Last Minute,Low,Medium,Frequent,Quiz,Laptop,High
+S117,Physical Science,Group,Interactive Tools,Occasional,Early,High,High,Frequent,Project,Laptop,High
+S118,Biological Science,Solo,Lecture Notes,Regular,On Time,Low,High,Never,Quiz,Laptop,Low
+S119,Statistics,Solo,Interactive Tools,Regular,On Time,Medium,Low,Occasional,Project,Laptop,Medium
+S120,Physical Science,Solo,Interactive Tools,Regular,On Time,Medium,High,Occasional,Project,Laptop,High
+S121,Statistics,Group,Lecture Notes,Occasional,On Time,High,Low,Frequent,Project,Shared Computer,High
+S122,Biological Science,Mixed,Interactive Tools,Occasional,On Time,Low,Medium,Frequent,Project,Laptop,Medium
+S123,Data Science,Group,Lecture Notes,Regular,Early,Medium,Medium,Occasional,Project,Laptop,Medium
+S124,Physical Science,Solo,Lecture Notes,Rare,Last Minute,Low,Low,Occasional,Quiz,Mobile,Low
+S125,Data Science,Solo,Lecture Notes,Occasional,On Time,Low,Medium,Frequent,Exam,Laptop,High
+S126,Biological Science,Mixed,Interactive Tools,Regular,On Time,Medium,High,Frequent,Project,Laptop,High
+S127,Biological Science,Mixed,Interactive Tools,Rare,Last Minute,Low,Low,Occasional,Exam,Laptop,Low
+S128,Statistics,Solo,Videos,Regular,Early,High,High,Frequent,Project,Laptop,High
+S129,Statistics,Group,Lecture Notes,Regular,On Time,Medium,Medium,Occasional,Exam,Mobile,High
+S130,Data Science,Solo,Interactive Tools,Regular,On Time,High,High,Frequent,Exam,Laptop,Medium
+S131,Data Science,Mixed,Videos,Occasional,On Time,Medium,Low,Occasional,Exam,Mobile,Medium
+S132,Physical Science,Group,Lecture Notes,Regular,Early,Low,Medium,Frequent,Exam,Mobile,Low
+S133,Statistics,Solo,Lecture Notes,Occasional,Last Minute,Medium,Medium,Never,Project,Laptop,Medium
+S134,Data Science,Mixed,Lecture Notes,Regular,Early,Medium,Medium,Never,Quiz,Shared Computer,High
+S135,Data Science,Solo,Videos,Regular,Early,High,High,Frequent,Exam,Laptop,Medium
+S136,Statistics,Group,Videos,Regular,On Time,High,High,Never,Exam,Laptop,Medium
+S137,Data Science,Mixed,Videos,Regular,Early,High,High,Frequent,Project,Laptop,High
+S138,Statistics,Solo,Lecture Notes,Regular,Early,Medium,Medium,Occasional,Quiz,Laptop,High
+S139,Physical Science,Solo,Videos,Regular,On Time,Medium,Medium,Never,Project,Laptop,High
+S140,Biological Science,Mixed,Videos,Regular,On Time,High,High,Frequent,Project,Laptop,High
+S141,Data Science,Mixed,Interactive Tools,Occasional,On Time,Medium,High,Frequent,Exam,Laptop,High
+S142,Physical Science,Mixed,Interactive Tools,Occasional,On Time,High,Medium,Occasional,Quiz,Shared Computer,High
+S143,Biological Science,Mixed,Videos,Regular,On Time,Medium,High,Frequent,Project,Laptop,Medium
+S144,Statistics,Mixed,Videos,Regular,Early,High,Low,Frequent,Project,Laptop,High
+S145,Physical Science,Mixed,Interactive Tools,Regular,On Time,High,Medium,Occasional,Project,Laptop,High
+S146,Biological Science,Mixed,Lecture Notes,Regular,Early,High,High,Occasional,Quiz,Laptop,High
+S147,Physical Science,Group,Videos,Regular,On Time,High,High,Occasional,Project,Mobile,High
+S148,Statistics,Solo,Lecture Notes,Rare,Early,High,High,Frequent,Exam,Laptop,Medium
+S149,Data Science,Group,Interactive Tools,Occasional,Last Minute,Low,Low,Occasional,Quiz,Laptop,Low
+S150,Statistics,Group,Videos,Regular,On Time,High,High,Frequent,Quiz,Laptop,High
+S151,Biological Science,Mixed,Videos,Regular,Early,High,High,Frequent,Project,Laptop,High
+S152,Biological Science,Group,Lecture Notes,Regular,On Time,Low,Medium,Frequent,Exam,Mobile,Medium
+S153,Biological Science,Mixed,Videos,Occasional,Early,High,Medium,Frequent,Quiz,Laptop,High
+S154,Biological Science,Mixed,Videos,Regular,Early,High,Medium,Never,Quiz,Laptop,Medium
+S155,Statistics,Solo,Videos,Occasional,Last Minute,Medium,Low,Frequent,Project,Mobile,Medium
+S156,Data Science,Solo,Interactive Tools,Regular,On Time,Medium,High,Frequent,Project,Laptop,High
+S157,Data Science,Mixed,Lecture Notes,Regular,Early,Medium,High,Occasional,Exam,Laptop,Medium
+S158,Physical Science,Solo,Interactive Tools,Occasional,On Time,High,Medium,Frequent,Quiz,Laptop,High
+S159,Data Science,Solo,Videos,Regular,Last Minute,Low,Low,Never,Project,Mobile,Low
+S160,Data Science,Group,Interactive Tools,Occasional,On Time,High,High,Occasional,Quiz,Laptop,High
+S161,Physical Science,Mixed,Interactive Tools,Regular,On Time,High,Medium,Frequent,Exam,Laptop,Medium
+S162,Physical Science,Solo,Videos,Regular,On Time,High,High,Occasional,Exam,Laptop,High
+S163,Statistics,Solo,Lecture Notes,Regular,Early,High,High,Occasional,Exam,Shared Computer,High
+S164,Data Science,Solo,Interactive Tools,Regular,On Time,High,High,Frequent,Project,Laptop,High
+S165,Biological Science,Mixed,Interactive Tools,Occasional,On Time,High,Medium,Frequent,Project,Laptop,High
+S166,Physical Science,Solo,Videos,Occasional,On Time,Medium,High,Occasional,Project,Laptop,High
+S167,Statistics,Mixed,Videos,Regular,Early,High,High,Occasional,Exam,Laptop,High
+S168,Data Science,Solo,Interactive Tools,Occasional,Last Minute,Medium,High,Never,Project,Laptop,Medium
+S169,Statistics,Mixed,Interactive Tools,Regular,On Time,High,High,Occasional,Exam,Laptop,High
+S170,Biological Science,Group,Lecture Notes,Occasional,Last Minute,Low,Medium,Frequent,Quiz,Mobile,Low
+S171,Biological Science,Solo,Videos,Occasional,Early,Medium,High,Frequent,Exam,Shared Computer,Medium
+S172,Data Science,Solo,Interactive Tools,Rare,Last Minute,Low,Medium,Occasional,Exam,Mobile,Low
+S173,Statistics,Group,Lecture Notes,Occasional,Last Minute,High,Medium,Frequent,Exam,Mobile,High
+S174,Physical Science,Mixed,Videos,Regular,Early,Medium,High,Occasional,Project,Laptop,High
+S175,Data Science,Solo,Lecture Notes,Regular,On Time,Medium,High,Frequent,Project,Laptop,Medium
+S176,Data Science,Solo,Interactive Tools,Regular,On Time,High,Low,Never,Exam,Laptop,High
+S177,Data Science,Mixed,Interactive Tools,Occasional,Early,High,High,Frequent,Project,Shared Computer,High
+S178,Statistics,Mixed,Interactive Tools,Occasional,Early,High,Low,Occasional,Project,Laptop,High
+S179,Physical Science,Mixed,Videos,Regular,Last Minute,Medium,Medium,Frequent,Project,Laptop,High
+S180,Physical Science,Mixed,Videos,Regular,On Time,Low,Medium,Frequent,Exam,Laptop,Low

@@ -1,0 +1,181 @@
+Graduate_ID,Degree_Stream,GPA,Programming_Score,Statistics_Score,Communication_Score,Internship_Months,Portfolio_Projects,Weekly_SelfStudy_Hours,Hackathons,Internship_Sector,English_Level,Teamwork_Level,Career_Preference,Employment_Status
+G001,Statistics,3.74,70,62,74,11,7,11.4,4,Technology,Intermediate,Competent,Software,Employed - Data Role
+G002,Bioinformatics,3.3,76,82,74,3,6,12.7,2,Research,Advanced,Strong,Business Analytics,Employed - Data Role
+G003,Computer Science,3.74,86,98,81,6,5,10.2,5,Health,Intermediate,Competent,Data Engineering,Employed - Data Role
+G004,Statistics,2.93,61,81,74,10,3,7.4,3,Finance,Advanced,Competent,Data Science,Employed - Data Role
+G005,Data Science,3.5,83,84,69,3,6,6.7,5,Technology,Intermediate,Strong,Data Engineering,Employed - Other
+G006,Statistics,2.67,41,79,69,2,1,5.3,0,Technology,Intermediate,Developing,Data Science,Seeking
+G007,Data Science,3.29,82,63,70,4,6,6.5,5,Technology,Intermediate,Strong,Software,Seeking
+G008,Computer Science,3.09,46,51,76,6,1,5.5,1,Technology,Advanced,Developing,Data Engineering,Seeking
+G009,Statistics,3.47,85,75,90,9,4,7.5,3,Health,Advanced,Competent,Research,Seeking
+G010,Data Science,3.63,67,87,80,2,5,9.8,1,Health,Advanced,Strong,Research,Employed - Data Role
+G011,Computer Science,2.92,70,43,67,3,1,6.5,1,Technology,Intermediate,Strong,Software,Seeking
+G012,Data Science,2.79,74,74,86,8,5,4.4,1,Research,Intermediate,Strong,Research,Seeking
+G013,Statistics,2.45,57,57,67,4,4,6.6,0,Technology,Basic,Competent,Business Analytics,Seeking
+G014,Data Science,2.75,90,79,86,11,3,10.3,1,Finance,Advanced,Strong,Business Analytics,Employed - Other
+G015,Statistics,3.3,68,70,84,9,6,8.4,1,Public,Advanced,Strong,Business Analytics,Employed - Data Role
+G016,Statistics,3.39,77,69,71,6,9,9.7,2,Finance,Advanced,Competent,Data Science,Employed - Data Role
+G017,Data Science,3.25,75,80,64,7,8,8.2,4,Technology,Advanced,Competent,Data Engineering,Employed - Data Role
+G018,Data Science,3.8,81,100,51,6,5,7.9,4,Technology,Advanced,Strong,Software,Employed - Data Role
+G019,Bioinformatics,4.0,70,88,64,4,6,6.4,0,Research,Advanced,Strong,Data Engineering,Employed - Other
+G020,Statistics,3.74,81,94,77,8,5,8.2,2,Health,Advanced,Strong,Business Analytics,Higher Studies
+G021,Statistics,2.63,64,53,49,3,2,3.0,1,Public,Intermediate,Competent,Data Science,Higher Studies
+G022,Statistics,3.52,84,75,68,9,4,11.1,3,Public,Advanced,Competent,Data Engineering,Employed - Data Role
+G023,Data Science,2.99,67,91,86,13,4,10.3,2,Public,Advanced,Strong,Business Analytics,Higher Studies
+G024,Data Science,2.71,36,55,43,2,3,3.8,0,Public,Intermediate,Developing,Business Analytics,Employed - Other
+G025,Computer Science,3.72,82,71,80,7,6,11.7,2,Technology,Advanced,Competent,Software,Employed - Data Role
+G026,Statistics,3.37,71,70,91,12,6,8.1,1,Finance,Intermediate,Strong,Business Analytics,Employed - Data Role
+G027,Computer Science,3.36,64,72,83,7,4,9.6,0,Finance,Advanced,Strong,Data Science,Employed - Data Role
+G028,Statistics,3.64,63,77,75,8,4,6.7,1,Public,Advanced,Strong,Business Analytics,Seeking
+G029,Computer Science,3.35,84,70,74,8,5,13.0,2,Research,Advanced,Competent,Business Analytics,Employed - Other
+G030,Data Science,3.39,74,67,79,8,5,9.7,2,Finance,Advanced,Strong,Business Analytics,Employed - Data Role
+G031,Data Science,2.46,47,54,71,5,3,1.2,0,Finance,Basic,Competent,Business Analytics,Employed - Other
+G032,Statistics,3.53,77,90,80,4,4,10.3,1,Research,Advanced,Strong,Data Science,Employed - Data Role
+G033,Computer Science,3.69,92,71,63,10,8,12.6,1,Technology,Basic,Competent,Business Analytics,Employed - Data Role
+G034,Bioinformatics,3.12,69,85,78,5,5,10.0,3,Technology,Advanced,Strong,Research,Seeking
+G035,Computer Science,3.26,80,74,80,7,5,8.9,2,Technology,Intermediate,Strong,Business Analytics,Employed - Data Role
+G036,Statistics,3.61,75,85,90,4,4,12.3,1,Health,Advanced,Developing,Data Science,Employed - Data Role
+G037,Statistics,3.89,89,60,79,7,6,9.7,2,Research,Advanced,Strong,Data Science,Employed - Data Role
+G038,Data Science,3.43,84,81,86,6,3,6.8,2,Finance,Advanced,Strong,Business Analytics,Employed - Data Role
+G039,Data Science,3.57,73,91,75,2,5,13.4,2,Health,Advanced,Strong,Business Analytics,Employed - Other
+G040,Computer Science,3.49,70,83,89,8,7,4.5,3,Technology,Advanced,Competent,Data Science,Employed - Data Role
+G041,Statistics,2.99,74,82,71,8,5,8.3,0,Technology,Advanced,Strong,Data Science,Employed - Data Role
+G042,Statistics,3.36,79,99,82,8,4,14.0,1,Public,Intermediate,Strong,Data Engineering,Employed - Data Role
+G043,Data Science,3.89,81,89,59,5,4,11.2,2,Technology,Advanced,Developing,Data Science,Higher Studies
+G044,Statistics,3.42,67,85,84,12,2,4.7,2,Finance,Intermediate,Strong,Data Science,Employed - Other
+G045,Data Science,3.55,75,83,69,5,5,9.6,0,Research,Intermediate,Developing,Software,Seeking
+G046,Computer Science,3.69,68,75,91,7,7,6.4,1,Public,Advanced,Strong,Data Science,Employed - Data Role
+G047,Data Science,3.03,56,62,95,7,6,8.6,2,Research,Intermediate,Competent,Business Analytics,Employed - Data Role
+G048,Computer Science,3.48,100,81,64,9,8,11.4,2,Technology,Advanced,Competent,Software,Employed - Data Role
+G049,Statistics,3.34,77,93,78,5,7,11.0,0,Research,Advanced,Competent,Research,Higher Studies
+G050,Computer Science,2.95,93,63,69,7,8,9.7,2,Technology,Advanced,Strong,Software,Employed - Data Role
+G051,Statistics,2.92,44,42,76,5,3,4.9,1,Technology,Basic,Competent,Software,Higher Studies
+G052,Bioinformatics,2.95,77,52,66,3,0,5.9,2,Health,Basic,Competent,Data Science,Employed - Data Role
+G053,Data Science,3.49,71,95,79,7,4,12.2,1,Research,Advanced,Strong,Research,Employed - Data Role
+G054,Computer Science,2.98,47,52,58,2,4,2.0,1,Finance,Basic,Developing,Data Engineering,Seeking
+G055,Statistics,3.64,81,92,76,5,6,9.0,1,Finance,Advanced,Competent,Data Engineering,Employed - Data Role
+G056,Statistics,3.6,62,87,80,5,6,9.9,1,Research,Advanced,Competent,Business Analytics,Higher Studies
+G057,Statistics,3.28,54,71,90,11,3,6.3,2,Public,Advanced,Competent,Research,Higher Studies
+G058,Data Science,3.38,81,89,72,8,5,11.7,2,Technology,Advanced,Strong,Data Science,Employed - Data Role
+G059,Statistics,2.64,53,55,66,4,4,3.7,0,Finance,Advanced,Competent,Data Engineering,Seeking
+G060,Data Science,3.25,80,66,100,9,4,8.7,6,Technology,Advanced,Competent,Software,Employed - Data Role
+G061,Data Science,3.39,47,64,70,1,2,4.7,1,Health,Intermediate,Competent,Business Analytics,Seeking
+G062,Statistics,3.55,94,79,79,5,5,8.5,1,Technology,Advanced,Strong,Data Science,Employed - Data Role
+G063,Data Science,3.45,77,90,61,8,7,9.1,3,Technology,Intermediate,Strong,Data Science,Employed - Data Role
+G064,Statistics,3.23,80,95,76,7,4,14.1,1,Research,Advanced,Strong,Research,Employed - Data Role
+G065,Statistics,3.32,83,89,73,5,4,8.8,0,Research,Advanced,Competent,Research,Employed - Other
+G066,Data Science,3.72,81,71,81,10,5,8.5,4,Research,Advanced,Strong,Data Engineering,Employed - Data Role
+G067,Statistics,3.55,81,89,79,4,5,10.6,1,Health,Advanced,Strong,Business Analytics,Higher Studies
+G068,Statistics,3.54,59,87,98,5,5,8.3,2,Finance,Advanced,Competent,Business Analytics,Employed - Data Role
+G069,Computer Science,2.69,78,79,71,11,6,6.1,2,Finance,Advanced,Strong,Business Analytics,Employed - Data Role
+G070,Statistics,3.77,78,92,62,6,3,8.5,0,Research,Advanced,Strong,Research,Employed - Data Role
+G071,Computer Science,3.32,96,82,74,7,7,7.5,2,Technology,Advanced,Competent,Software,Employed - Data Role
+G072,Statistics,3.68,96,73,59,6,6,4.1,2,Finance,Advanced,Strong,Data Science,Employed - Data Role
+G073,Statistics,3.19,77,80,91,7,3,7.9,2,Research,Advanced,Strong,Business Analytics,Employed - Data Role
+G074,Statistics,3.47,87,83,63,7,7,13.3,1,Research,Advanced,Competent,Business Analytics,Employed - Data Role
+G075,Statistics,3.82,67,89,68,7,5,13.5,2,Research,Advanced,Competent,Research,Higher Studies
+G076,Data Science,2.62,69,83,94,11,3,5.8,2,Finance,Advanced,Strong,Data Science,Employed - Data Role
+G077,Computer Science,4.0,87,73,70,6,7,8.6,3,Technology,Advanced,Strong,Data Science,Employed - Data Role
+G078,Data Science,3.43,93,91,88,7,7,13.3,4,Research,Advanced,Strong,Data Science,Employed - Data Role
+G079,Data Science,3.03,56,89,81,7,4,6.2,0,Finance,Advanced,Strong,Business Analytics,Employed - Data Role
+G080,Bioinformatics,3.7,69,99,74,4,4,13.2,1,Health,Advanced,Competent,Research,Higher Studies
+G081,Computer Science,3.65,62,79,81,8,4,6.3,0,Health,Advanced,Strong,Business Analytics,Employed - Data Role
+G082,Data Science,3.66,78,90,88,6,5,12.5,2,Health,Intermediate,Strong,Business Analytics,Higher Studies
+G083,Statistics,3.07,73,83,74,6,6,8.3,5,Technology,Intermediate,Strong,Software,Employed - Data Role
+G084,Data Science,2.59,39,45,62,3,3,6.9,0,Public,Basic,Developing,Research,Seeking
+G085,Computer Science,3.79,89,76,85,9,3,10.1,5,Technology,Basic,Strong,Software,Employed - Data Role
+G086,Data Science,3.68,81,69,75,5,7,8.6,4,Technology,Advanced,Strong,Software,Employed - Other
+G087,Bioinformatics,3.24,71,78,84,6,5,12.9,1,Research,Advanced,Strong,Research,Higher Studies
+G088,Data Science,3.83,79,86,72,12,6,7.4,5,Research,Intermediate,Competent,Data Science,Employed - Data Role
+G089,Computer Science,3.15,84,66,90,11,2,6.9,3,Technology,Advanced,Competent,Data Engineering,Employed - Other
+G090,Computer Science,3.36,73,75,71,2,3,10.4,1,Technology,Advanced,Strong,Data Science,Employed - Data Role
+G091,Data Science,3.63,80,89,75,4,3,11.6,3,Research,Basic,Competent,Research,Higher Studies
+G092,Statistics,3.12,94,72,58,7,4,9.5,1,Research,Advanced,Strong,Data Science,Employed - Data Role
+G093,Computer Science,2.68,57,74,60,2,3,3.3,2,Technology,Basic,Developing,Data Engineering,Seeking
+G094,Statistics,2.83,43,70,63,1,4,3.7,1,Health,Basic,Competent,Business Analytics,Seeking
+G095,Statistics,3.77,57,79,90,3,6,11.1,3,Health,Intermediate,Competent,Business Analytics,Employed - Data Role
+G096,Computer Science,2.77,56,61,68,4,2,1.6,1,Health,Basic,Developing,Business Analytics,Seeking
+G097,Statistics,3.31,54,86,91,6,6,6.8,1,Finance,Advanced,Strong,Business Analytics,Employed - Other
+G098,Data Science,2.97,74,64,95,10,3,11.8,1,Public,Advanced,Strong,Business Analytics,Employed - Data Role
+G099,Statistics,3.46,77,83,59,11,7,11.7,5,Technology,Advanced,Strong,Software,Employed - Data Role
+G100,Computer Science,3.64,68,64,51,8,5,8.9,4,Technology,Advanced,Strong,Data Science,Employed - Data Role
+G101,Data Science,3.3,78,64,81,9,5,9.4,1,Finance,Advanced,Strong,Business Analytics,Employed - Data Role
+G102,Data Science,2.08,57,34,49,1,2,2.5,1,Public,Intermediate,Competent,Data Engineering,Seeking
+G103,Data Science,3.79,75,86,100,4,3,7.8,1,Research,Advanced,Competent,Research,Employed - Data Role
+G104,Data Science,2.98,90,77,74,6,6,7.0,2,Technology,Intermediate,Competent,Software,Employed - Data Role
+G105,Statistics,2.74,72,72,88,11,3,9.9,1,Technology,Basic,Strong,Business Analytics,Employed - Data Role
+G106,Statistics,3.48,86,89,71,6,4,13.9,1,Research,Advanced,Competent,Data Science,Employed - Data Role
+G107,Data Science,3.61,88,62,84,8,4,8.1,3,Public,Advanced,Strong,Data Science,Employed - Other
+G108,Computer Science,3.99,75,85,48,9,6,8.2,4,Technology,Advanced,Competent,Data Science,Employed - Data Role
+G109,Bioinformatics,2.56,60,55,66,3,3,7.4,1,Public,Basic,Developing,Data Science,Seeking
+G110,Data Science,3.88,87,59,70,11,6,8.0,1,Technology,Advanced,Competent,Data Engineering,Employed - Data Role
+G111,Computer Science,3.05,77,74,82,9,6,6.7,3,Technology,Advanced,Strong,Business Analytics,Seeking
+G112,Data Science,3.4,54,76,91,7,4,7.9,1,Technology,Advanced,Strong,Business Analytics,Employed - Other
+G113,Computer Science,3.77,73,76,86,7,6,8.1,1,Technology,Advanced,Strong,Data Science,Seeking
+G114,Data Science,3.56,83,88,85,5,3,9.6,1,Technology,Intermediate,Competent,Data Science,Higher Studies
+G115,Data Science,2.39,33,57,80,4,0,6.0,0,Finance,Intermediate,Competent,Business Analytics,Employed - Data Role
+G116,Data Science,2.49,59,77,88,11,5,5.6,0,Public,Advanced,Competent,Data Science,Employed - Data Role
+G117,Computer Science,3.71,84,63,74,5,6,7.9,1,Technology,Intermediate,Competent,Software,Employed - Data Role
+G118,Statistics,2.37,62,47,64,1,2,4.6,1,Technology,Intermediate,Developing,Data Science,Employed - Other
+G119,Data Science,2.55,61,68,53,3,3,6.1,0,Health,Advanced,Competent,Software,Employed - Data Role
+G120,Data Science,2.84,64,78,82,5,6,11.5,2,Finance,Advanced,Strong,Software,Employed - Data Role
+G121,Statistics,3.25,70,63,85,10,4,11.9,3,Public,Basic,Strong,Business Analytics,Employed - Data Role
+G122,Computer Science,3.55,67,83,84,10,5,10.1,2,Research,Advanced,Competent,Data Science,Employed - Data Role
+G123,Computer Science,2.86,42,45,69,4,3,4.5,0,Technology,Intermediate,Developing,Data Engineering,Higher Studies
+G124,Computer Science,3.33,83,80,83,8,4,4.7,3,Finance,Advanced,Developing,Business Analytics,Employed - Data Role
+G125,Data Science,4.0,75,92,79,6,5,11.1,3,Research,Intermediate,Competent,Data Science,Higher Studies
+G126,Computer Science,2.67,52,51,76,3,2,5.2,1,Finance,Advanced,Developing,Software,Seeking
+G127,Bioinformatics,3.58,75,100,65,7,5,13.2,2,Health,Advanced,Competent,Research,Higher Studies
+G128,Data Science,3.89,82,71,80,9,4,10.9,3,Technology,Intermediate,Strong,Data Engineering,Employed - Other
+G129,Data Science,3.81,68,84,82,5,4,14.7,1,Finance,Advanced,Developing,Research,Higher Studies
+G130,Computer Science,3.37,80,71,67,5,6,8.0,5,Technology,Advanced,Strong,Software,Employed - Data Role
+G131,Statistics,3.32,83,85,95,8,3,12.1,2,Finance,Advanced,Strong,Business Analytics,Employed - Data Role
+G132,Computer Science,3.47,71,73,86,6,6,6.6,1,Finance,Advanced,Strong,Data Engineering,Employed - Other
+G133,Statistics,3.76,61,98,81,1,6,10.3,2,Health,Advanced,Competent,Data Science,Employed - Data Role
+G134,Data Science,3.52,77,91,82,8,3,12.4,1,Technology,Advanced,Competent,Research,Employed - Other
+G135,Computer Science,3.2,90,75,88,9,6,9.0,2,Technology,Advanced,Competent,Data Science,Employed - Data Role
+G136,Data Science,3.88,78,84,85,11,6,11.6,3,Finance,Advanced,Developing,Business Analytics,Higher Studies
+G137,Data Science,3.86,82,84,46,9,4,7.4,3,Research,Intermediate,Strong,Data Engineering,Employed - Data Role
+G138,Data Science,3.11,84,74,54,9,7,4.7,3,Technology,Advanced,Competent,Data Science,Employed - Data Role
+G139,Computer Science,3.56,85,80,62,8,6,4.7,5,Finance,Advanced,Strong,Data Science,Employed - Data Role
+G140,Computer Science,2.85,86,77,90,5,8,12.6,5,Public,Intermediate,Strong,Data Engineering,Employed - Data Role
+G141,Computer Science,2.77,61,39,64,3,3,6.1,0,Health,Basic,Developing,Data Science,Employed - Other
+G142,Data Science,3.18,79,89,68,4,7,9.2,4,Technology,Basic,Strong,Data Science,Employed - Data Role
+G143,Computer Science,3.46,62,91,78,4,6,10.4,2,Finance,Intermediate,Strong,Data Science,Employed - Data Role
+G144,Bioinformatics,3.7,72,91,77,8,3,13.9,1,Research,Intermediate,Competent,Business Analytics,Seeking
+G145,Data Science,3.15,64,82,82,8,5,6.3,2,Technology,Advanced,Strong,Data Science,Seeking
+G146,Data Science,2.98,66,75,92,6,6,5.0,2,Finance,Advanced,Strong,Business Analytics,Employed - Data Role
+G147,Computer Science,3.67,68,63,82,7,4,7.1,2,Finance,Advanced,Strong,Business Analytics,Employed - Other
+G148,Data Science,3.3,73,76,78,8,9,7.5,2,Technology,Advanced,Strong,Research,Employed - Data Role
+G149,Computer Science,3.45,80,81,70,6,5,9.3,3,Technology,Advanced,Strong,Data Engineering,Employed - Data Role
+G150,Data Science,3.52,64,89,68,2,6,13.9,2,Research,Intermediate,Competent,Research,Higher Studies
+G151,Statistics,3.0,75,60,54,2,0,4.5,0,Research,Basic,Competent,Business Analytics,Employed - Other
+G152,Data Science,3.43,55,63,63,5,2,4.7,0,Technology,Basic,Competent,Business Analytics,Seeking
+G153,Data Science,3.23,91,70,59,6,5,8.4,4,Health,Advanced,Competent,Software,Employed - Data Role
+G154,Computer Science,3.73,83,87,83,6,5,13.4,4,Research,Advanced,Strong,Software,Employed - Data Role
+G155,Bioinformatics,3.38,75,74,93,8,5,7.8,2,Technology,Advanced,Competent,Business Analytics,Employed - Other
+G156,Data Science,3.08,70,53,67,2,2,1,0,Research,Intermediate,Strong,Business Analytics,Seeking
+G157,Statistics,2.73,72,75,72,7,5,7.5,3,Finance,Advanced,Competent,Research,Employed - Data Role
+G158,Computer Science,3.47,65,61,82,6,7,12.2,2,Finance,Intermediate,Strong,Business Analytics,Employed - Data Role
+G159,Data Science,3.3,67,66,83,7,2,11.6,2,Health,Advanced,Strong,Business Analytics,Employed - Data Role
+G160,Data Science,3.59,84,73,64,9,5,7.6,3,Technology,Advanced,Developing,Data Engineering,Employed - Data Role
+G161,Computer Science,3.16,91,80,93,7,4,6.2,0,Finance,Advanced,Competent,Software,Employed - Data Role
+G162,Statistics,3.15,64,94,93,9,3,9.7,1,Finance,Intermediate,Strong,Business Analytics,Employed - Data Role
+G163,Statistics,3.24,84,90,59,7,5,7.2,1,Technology,Intermediate,Strong,Software,Employed - Other
+G164,Data Science,2.94,65,62,43,3,0,5.5,0,Research,Intermediate,Strong,Business Analytics,Employed - Data Role
+G165,Statistics,3.81,66,98,65,3,5,13.6,1,Technology,Advanced,Competent,Data Science,Seeking
+G166,Computer Science,3.69,77,80,84,10,1,9.5,1,Public,Advanced,Strong,Business Analytics,Employed - Data Role
+G167,Statistics,2.49,54,58,65,2,1,5.9,0,Research,Intermediate,Developing,Software,Seeking
+G168,Statistics,2.53,41,57,64,2,3,5.2,1,Technology,Intermediate,Developing,Business Analytics,Employed - Other
+G169,Statistics,3.9,94,83,55,5,6,6.5,4,Technology,Advanced,Competent,Research,Employed - Data Role
+G170,Statistics,3.21,90,71,58,9,5,5.9,4,Research,Advanced,Strong,Data Science,Employed - Data Role
+G171,Bioinformatics,3.68,63,93,73,3,6,8.8,1,Public,Intermediate,Developing,Data Science,Employed - Other
+G172,Computer Science,2.91,64,69,87,10,5,12.4,3,Public,Advanced,Strong,Data Science,Employed - Data Role
+G173,Data Science,3.44,81,89,77,6,1,6.8,2,Research,Advanced,Competent,Data Science,Higher Studies
+G174,Computer Science,3.65,84,60,68,8,4,10.3,4,Technology,Advanced,Strong,Data Science,Employed - Data Role
+G175,Statistics,3.3,71,82,91,7,5,11.6,1,Research,Advanced,Strong,Data Science,Employed - Data Role
+G176,Statistics,3.2,80,76,63,8,6,12.1,2,Public,Intermediate,Competent,Software,Higher Studies
+G177,Computer Science,3.25,89,71,76,10,8,15.0,4,Public,Basic,Competent,Research,Employed - Data Role
+G178,Computer Science,2.94,71,61,91,8,4,9.0,3,Technology,Advanced,Competent,Software,Employed - Data Role
+G179,Computer Science,3.71,68,95,87,6,6,13.3,4,Research,Intermediate,Competent,Research,Employed - Other
+G180,Computer Science,3.37,56,89,87,5,7,13.7,0,Research,Advanced,Developing,Research,Employed - Data Role

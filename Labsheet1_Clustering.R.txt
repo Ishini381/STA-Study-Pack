@@ -1,0 +1,124 @@
+# Create zoology-related dataset
+fish_data <- data.frame(
+  Species = c("Salmon", "Trout", "Carp", "Pike", "Perch", "Bass", "Catfish", "Eel", "Herring", "Mackerel"),
+  Body_Length_cm = c(75, 68, 55, 90, 45, 50, 60, 100, 25, 35),
+  Body_Weight_g = c(4500, 3200, 2500, 5000, 1200, 1500, 2200, 3500, 300, 500),
+  Fin_Length_cm = c(20, 18, 15, 22, 12, 14, 13, 25, 8, 10)
+)
+
+# View dataset
+fish_data
+
+# Remove species column
+fish_numeric <- fish_data[, -1]
+
+# Scale data
+fish_scaled <- scale(fish_numeric)
+
+head(fish_scaled)
+
+###########
+
+# Calculate distance matrix
+dist_matrix <- dist(fish_scaled, method = "euclidean")
+
+# Perform hierarchical clustering
+hc <- hclust(dist_matrix, method = "ward.D2")
+
+# Plot dendrogram
+plot(hc, labels = fish_data$Species, main = "Hierarchical Clustering Dendrogram", xlab = "", sub = "")
+rect.hclust(hc, k = 3, border = "red")  # Draw cluster boundaries
+
+###########
+
+set.seed(123)  # For reproducibility
+kmeans_result <- kmeans(fish_scaled, centers = 3, nstart = 25)
+
+# Cluster assignments
+fish_data$Cluster <- as.factor(kmeans_result$cluster)
+
+fish_data
+
+###########
+library(ggplot2)
+
+ggplot(fish_data, aes(x = Body_Length_cm, y = Body_Weight_g, color = Cluster, 
+                      label = Species)) +
+  geom_point(size = 3) +
+  geom_text(vjust = -0.5) +
+  labs(title = "K-means Clustering of Fish", x = "Body Length (cm)", y = "Body Weight (g)") +
+  theme_minimal()
+
+###########
+# comparing methods
+
+table(Hierarchical = cutree(hc, k = 3), KMeans = kmeans_result$cluster)
+
+
+###########
+# Exercises
+# 1. Change the dataset to include more species and traits (e.g., tail length, scale count).
+# 2. Try a different distance metric (e.g., "manhattan") in hierarchical clustering. How does it change the dendrogram?
+# 3.Use the NbClust package to determine the optimal number of clusters for the fish dataset.
+# 4.Apply clustering to another zoology dataset, such as:
+# Iris dataset (for flowers, but similar principle)
+
+
+
+########################
+########################
+
+# Install packages if needed
+install.packages(c("palmerpenguins", "ggplot2", "NbClust"))
+
+library(palmerpenguins)
+library(ggplot2)
+library(NbClust)
+
+# View dataset
+head(penguins)
+
+
+penguins_clean <- na.omit(penguins[, c("species", "bill_length_mm", 
+                                       "bill_depth_mm", 
+                                       "flipper_length_mm", 
+                                       "body_mass_g")])
+
+# Numeric variables only (for clustering)
+penguins_numeric <- penguins_clean[, -1]
+
+# Scale the data
+penguins_scaled <- scale(penguins_numeric)
+
+
+# Distance matrix (Euclidean)
+dist_matrix <- dist(penguins_scaled, method = "euclidean")
+
+# Hierarchical clustering (Ward's method)
+hc <- hclust(dist_matrix, method = "ward.D2")
+
+# Plot dendrogram
+plot(hc, labels = penguins_clean$species, main = "Hierarchical Clustering Dendrogram",
+     xlab = "", sub = "")
+rect.hclust(hc, k = 3, border = "red")  # Draw cluster boxes
+
+
+set.seed(123)
+kmeans_result <- kmeans(penguins_scaled, centers = 3, nstart = 25)
+
+# Add cluster labels
+penguins_clean$Cluster <- as.factor(kmeans_result$cluster)
+
+# View results
+head(penguins_clean)
+
+
+ggplot(penguins_clean, aes(x = flipper_length_mm, y = body_mass_g, color = Cluster, label = species)) +
+  geom_point(size = 3) +
+  geom_text(vjust = -0.5) +
+  labs(title = "K-means Clustering of Penguins",
+       x = "Flipper Length (mm)", y = "Body Mass (g)") +
+  theme_minimal()
+
+
+

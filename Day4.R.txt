@@ -1,0 +1,245 @@
+dat <- read.csv("student_learning_profiles_categorical.csv",
+                stringsAsFactors = TRUE)
+
+head(dat)
+
+
+read.csv("data2.txt",sep=";")
+
+
+str(dat)
+head(dat)
+
+library(factoextra)
+library(FactoMineR)
+
+?mca
+
+?MCA
+
+
+library(FactoMineR)
+library(factoextra)
+
+sup_idx <- which(names(dat) %in% c("Programme", "Performance_Band"))
+
+res_mca <- MCA(
+  dat,
+  quali.sup = sup_idx,
+  ncp = 5,
+  graph = FALSE
+)
+
+res_mca
+
+
+res_mca <- MCA(
+  dat,
+  quali.sup = sup_idx,
+  ncp = 5,
+  graph = TRUE
+)
+
+res_mca
+
+
+res_mca$eig
+fviz_eig(res_mca, addlabels = TRUE)
+
+
+fviz_mca_var(
+  res_mca,
+  choice = "var.cat",
+  repel = TRUE
+)
+
+fviz_mca_var(
+  res_mca,
+  choice = "var.cat",
+  col.var = "contrib",
+  repel = TRUE
+)
+
+fviz_cos2(
+  res_mca,
+  choice = "var",
+  axes = 1,
+  top = 15
+)
+
+
+fviz_mca_ind(
+  res_mca,
+  geom = "point",
+  col.ind = "cos2"
+)
+
+plot(
+  res_mca,
+  invisible = c("ind", "var"),
+  hab = "quali"
+)
+
+
+
+dimdesc(res_mca, axes = 1:2)
+
+
+# FAMD
+dat <- read.csv(
+  "graduate_employability_mixed.csv",
+  stringsAsFactors = TRUE
+)
+
+str(dat)
+head(dat)
+
+rownames(dat) <- dat$Graduate_ID
+dat$Graduate_ID <- NULL
+
+
+head(dat)
+sapply(dat, class)
+
+num_vars <- names(dat)[sapply(dat, is.numeric)]
+num_vars
+length(num_vars)
+
+cat_vars <- names(dat)[sapply(dat, is.factor)]
+cat_vars
+length(cat_vars)
+
+##############
+
+# Read
+dat <- read.csv("student_learning_profiles_categorical.csv",
+                stringsAsFactors = TRUE)
+
+rownames(dat) <- dat$Student_ID
+dat$Student_ID <- NULL
+dat[] <- lapply(dat, as.factor)
+
+# Packages
+library(FactoMineR)
+library(factoextra)
+
+# Supplementary variables
+sup_idx <- which(names(dat) %in% c("Programme", "Performance_Band"))
+
+# MCA
+res_mca <- MCA(dat, quali.sup = sup_idx, ncp = 5, graph = FALSE)
+
+# Diagnostics
+res_mca$eig
+fviz_eig(res_mca, addlabels = TRUE)
+
+# Categories
+fviz_mca_var(res_mca, choice = "var.cat", repel = TRUE)
+fviz_contrib(res_mca, choice = "var", axes = 1, top = 15)
+fviz_cos2(res_mca, choice = "var", axes = 1, top = 15)
+
+# Individuals
+fviz_mca_ind(res_mca, geom = "point", col.ind = "cos2")
+
+# Supplementary categories
+res_mca$quali.sup$coord
+plot(res_mca, invisible = c("ind", "var"), hab = "quali")
+
+# Dimension descriptions
+dimdesc(res_mca, axes = 1:2)
+
+# Reduced coordinates
+student_coordinates <- as.data.frame(res_mca$ind$coord)
+
+# Part B - Task 7
+# Give meaningful names to Dimensions 1 and 2.
+# Dimension 1-Learning Behaviour and Study Habits
+# Dimension 2-Learning Preferences and Engagement
+
+###########################
+
+# Part C - Tasks 7,8
+# Read
+dat <- read.csv(
+  "graduate_employability_mixed.csv",
+  stringsAsFactors = TRUE
+)
+
+rownames(dat) <- dat$Graduate_ID
+dat$Graduate_ID <- NULL
+
+# Packages
+library(FactoMineR)
+library(factoextra)
+
+# Supplementary outcome
+sup_idx <- which(names(dat) == "Employment_Status")
+
+# FAMD
+res_famd <- FAMD(dat, sup.var = sup_idx, ncp = 5, graph = FALSE)
+
+# Eigenvalues
+res_famd$eig
+fviz_eig(res_famd, addlabels = TRUE)
+
+# Variables
+fviz_famd_var(res_famd, repel = TRUE)
+fviz_famd_var(res_famd, choice = "quanti.var", repel = TRUE)
+fviz_famd_var(res_famd, choice = "quali.var", repel = TRUE)
+
+# Contributions and representation
+fviz_contrib(res_famd, choice = "var", axes = 1, top = 15)
+fviz_cos2(res_famd, choice = "var", axes = 1, top = 15)
+
+fviz_contrib(res_famd, choice = "var", axes = 2, top = 15)
+
+# Individuals
+fviz_famd_ind(res_famd, geom = "point", col.ind = "cos2")
+
+# Supplementary outcome
+fviz_famd_var(res_famd, choice = "quali.sup", repel = TRUE)
+
+# Description
+dimdesc(res_famd, axes = 1:2)
+
+# Reduced coordinates
+graduate_coordinates <- as.data.frame(res_famd$ind$coord)
+
+
+# Extract the first three individual coordinates.
+# Explain how those three coordinates could be used in a later clustering algorithm.
+graduate_coordinates
+
+
+
+##############
+# Cluster analysis
+
+
+names <- list(c("g1","g2","g3","g4","g5"),c("p1","p2"))
+sl.clus.dat <- matrix(c(1,1,1,1.1,3,2,3,2.3,5,5),ncol = 2,
+                      byrow = TRUE,dimnames = names)
+
+
+plot(sl.clus.dat)
+
+print(dist(sl.clus.dat,method="euclidean"),digits=3)
+
+plot(sl.clus.dat,type="n", xlim=c(0,6), ylim=c(0,6))
+text(sl.clus.dat,labels=row.names(sl.clus.dat))
+
+
+d = dist(sl.clus.dat,method="euclidean")
+hclust_out = hclust(d, method = "single")
+hclust_out
+
+plot(hclust_out)
+
+#----------
+hclust_out_complete = hclust(d, method = "complete")
+plot(hclust_out_complete)
+
+
+
+# next week, run different distance, linkage, new example
+

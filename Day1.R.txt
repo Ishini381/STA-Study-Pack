@@ -1,0 +1,85 @@
+# STA 3402 
+# Day 1- 08.08.2026
+
+# 1. load the mtcars dataset
+data(mtcars)
+
+# 2. how many variables are there?
+dim(mtcars)
+# number of rows 32
+# number of columns
+ncol(mtcars)
+
+# 3. how many records are there?
+nrow(mtcars)
+
+# 4. are there any missing values?
+
+A = c(10,15,20,25,34)
+A
+is.na(A)
+
+B = c(10,15,NA,34,85)
+B
+is.na(B)
+sum(is.na(B))
+
+summary(mtcars)
+sum(is.na(mtcars))
+
+# 5. are there any outliers?
+boxplot(mtcars)
+
+# 6. fit a suitable prediction model to predict mpg
+# use 123 as the seed to split 80:20 train and test sets
+set.seed(123)
+trainID = sample(1:nrow(mtcars), 0.8*nrow(mtcars), replace = FALSE)
+trainSet = mtcars[trainID,]
+head(trainSet)
+
+testID = mtcars[-trainID,]
+head(testID)
+
+?mtcars
+# mpg is a continuous variable
+
+## fit a suitable prediction model
+# multiple linear regression
+mlrOutput = lm(trainSet$mpg ~ ., data = trainSet)
+# dot means use all the variables
+summary(mlrOutput) 
+
+# random forest
+# svr
+
+# variable selection
+## forward stepwise
+## backward stepwise
+
+# null model
+nullModel = lm(trainSet$mpg ~ 1, data=trainSet)
+## step(nullModel, direction = "forward", scope=c(list all the variables), data=trainSet)
+
+# full model
+fullModel = lm(trainSet$mpg ~ ., data = trainSet)
+step(fullModel, direction = "backward", data=trainSet)
+
+selModel = step(fullModel, direction = "backward", data=trainSet)
+
+summary(selModel)
+
+# Random forest
+
+library(randomForest)
+set.seed(123)
+rf_model = randomForest(mpg ~ ., data = trainSet)
+rf_model 
+
+# stopped at 10.30am
+# next session, Wed 7pm
+
+
+# XG Boost
+# SVR
+# Regularization
+

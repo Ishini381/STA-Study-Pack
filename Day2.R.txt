@@ -1,0 +1,146 @@
+# STA 3402
+## Day2
+
+# 1.load the mtcars dataset
+data(mtcars)
+dim(mtcars)
+# 2.carry out the PCA
+
+prcomp()
+princomp()
+
+# do we need any additional packages?
+?prcomp
+## prcomp {stats}
+# comes with the stats
+
+?princomp
+## princomp {stats}
+
+# remove the categorical variable
+str(mtcars)
+?mtcars
+
+## create a copy of the dataset
+data = mtcars
+# remove the vs and am variables
+data$vs = NULL
+data$am = NULL
+# or
+data_quants = data[,-c(8,9)]
+data_quants = data[,c(1:7,10,11)]
+dim(data_quants)
+
+# this is not going to work
+dim(data)
+Numaric_data = data[, sapply(data, is.numeric)]
+dim(Numaric_data)
+
+# standardize the data
+data_quants$mpg
+scale(data_quants$mpg)
+
+data_standadized = scale(data_quants)
+
+prcomp_out = prcomp(data_standadized)
+summary(prcomp_out)
+
+#3. scree plot
+plot(prcomp_out)
+screeplot(prcomp_out)
+
+pca_result = prcomp(data_quants, center = TRUE, scale. = TRUE)
+
+
+#4. How many PC's recommended?
+# 3, from the scree plot we can see that the elbow point is 3
+# also 91.581% variation of the data were explained by the 3 PC's
+
+
+# visualize
+biplot(prcomp_out)
+
+# write down the first principal component
+
+#PC1 = mpg + cyl + disp + hp + drat + wt + qsec + gear + carb
+
+str(prcomp_out)
+
+# initial data
+data_quants
+
+# transformed data
+prcomp_out$x
+
+#loadings
+prcomp_out$rotation
+
+#PC1 = -0.3931477 mpg + 0.4025537 cyl + 0.3973528 disp + 
+## 0.3670814 hp -0.3118165 drat + 0.3734771 wt + 
+## -0.2243508 qsec -0.2094749 gear + 0.2445807 carb
+
+# HW: write down PC2 and PC3 as well.
+
+
+data_standadized[1,] # first record of the dataset
+
+#PC1 = -0.3931477 mpg + 0.4025537 cyl + 0.3973528 disp + 
+## 0.3670814 hp -0.3118165 drat + 0.3734771 wt + 
+## -0.2243508 qsec -0.2094749 gear + 0.2445807 carb
+
+#PC1 = -0.3931477*0.1508848 + 0.4025537*-0.1049878 + 0.3973528 disp + 
+## 0.3670814 hp -0.3118165 drat + 0.3734771 wt + 
+## -0.2243508 qsec -0.2094749 gear + 0.2445807 carb
+
+prcomp_out$x[1,1]
+
+
+# PCA is an intermediate step. We can use the selected PC's
+# for the next step, regression, clustering...etc.
+
+# PCA cat example
+setwd("C:\\Users\\samee\\My Drive\\Teaching\\ST 4035 - Data Science\\2024\\PCA")
+library(jpeg)
+cat <- readJPEG('cat.jpeg')
+ncol(cat)
+nrow(cat)
+
+dim(cat)
+
+r <- cat[,,1]
+g <- cat[,,2]
+b <- cat[,,3]
+
+dim(r)
+
+cat.r.pca <- prcomp(r, center = FALSE)
+cat.g.pca <- prcomp(g, center = FALSE)
+cat.b.pca <- prcomp(b, center = FALSE)
+
+rgb.pca <- list(cat.r.pca, cat.g.pca, cat.b.pca)
+
+# first 3
+for (i in seq.int(3, round(nrow(cat) - 10), length.out = 10)) {
+  pca.img <- sapply(rgb.pca, function(j) {
+    compressed.img <- j$x[,1:i] %*% t(j$rotation[,1:i])
+  }, simplify = 'array')
+  writeJPEG(pca.img, paste('cat_compressed_', round(i,0), '_components.jpg', sep = ''))
+}
+
+original <- file.info('cat.jpeg')$size / 1000
+imgs <- dir('compressed/')
+
+for (i in imgs) {
+  full.path <- paste('compressed/', i, sep='')
+  print(paste(i, ' size: ', file.info(full.path)$size / 1000, ' original: ', original, ' % diff: ', round((file.info(full.path)$size / 1000 - original) / original, 2) * 100, '%', sep = ''))
+}
+
+
+# Next week, other dimension reduction techniques
+
+
+
+
+
+
+

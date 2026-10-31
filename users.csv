@@ -1,0 +1,8 @@
+user_id,age,preferred_language,student,subscription,activity_level
+U1,21,English,1,Premium,4
+U2,24,Sinhala,0,Standard,3
+U3,20,Sinhala,1,Free,5
+U4,27,English,0,Premium,4
+U5,22,Tamil,1,Standard,3
+U6,31,English,0,Standard,2
+

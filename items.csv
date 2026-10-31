@@ -1,0 +1,10 @@
+item_id,title,price,year,duration_min,genre,language,action,comedy,drama,violence_level
+I1,Ocean Signal,8,2022,105,SciFi,English,1,0,1,2
+I2,City Laughs,5,2020,92,Comedy,Sinhala,0,1,0,1
+I3,Hidden Monsoon,7,2023,118,Drama,Sinhala,0,0,1,2
+I4,Quantum Chase,12,2024,130,Action,English,1,0,0,4
+I5,Family Weekend,6,2021,100,Comedy,Tamil,0,1,1,1
+I6,Ancient Roads,9,2019,112,Documentary,English,0,0,1,1
+I7,Metro Pursuit,10,2022,108,Action,Sinhala,1,0,0,3
+I8,Silent Equation,11,2024,121,SciFi,Tamil,1,0,1,3
+

@@ -1,0 +1,39 @@
+library(tidyverse)
+library(cluster)
+
+items <- read_csv("data/items.csv", show_col_types = FALSE)
+ratings_long <- read_csv("data/ratings.csv", show_col_types = FALSE)
+users <- read_csv("data/users.csv", show_col_types = FALSE)
+
+# TASK 1: Euclidean and Manhattan distances before and after scaling.
+num_x <- items |> select(price, year, duration_min)
+# Complete here.
+
+# TASK 2: Calculate simple-matching and Jaccard similarities for I1 and I4.
+binary_x <- items |> select(action, comedy, drama)
+# Complete here.
+
+# TASK 3: Gower distances for mixed item attributes.
+items_gower <- items |>
+  mutate(
+    genre = factor(genre),
+    language = factor(language),
+    violence_level = ordered(violence_level)
+  ) |>
+  select(-item_id, -title)
+# Complete here using daisy().
+
+# TASK 4: Construct the user-item rating matrix.
+rating_matrix <- ratings_long |>
+  pivot_wider(names_from = item_id, values_from = rating) |>
+  column_to_rownames("user_id") |>
+  as.matrix()
+
+# Write functions for common ratings, cosine, Pearson, overlap, and shrinkage.
+
+# TASK 5: Predict U1-I5 using user-based collaborative filtering.
+
+# TASK 6: Predict U1-I5 using item-based collaborative filtering.
+
+# TASK 7: Use Gower distance for the new-user cold-start example.
+
